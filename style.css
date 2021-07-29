@@ -1,0 +1,95 @@
+/*--------- common css styles------------ */
+
+
+
+.txt-orange {
+    color: #E76F51;
+}
+
+.txt-blue {
+    color: #23A6F0;
+}
+
+.gray-img {
+    filter: grayscale(100%);
+}
+
+/*--------header section styles----------- */
+
+.header-bg {
+    background: #264653;
+
+}
+
+/*-------- hero section styles ----------*/
+.hero-btn {
+    background: #E76F51;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 46px;
+    border: none;
+    margin-top: 8px;
+
+}
+
+.hero-gray-text {
+    color: #E0E0E0;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+/* ------------clients section styles--------- */
+
+.clients p {
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.clients i {
+    color: #E76F51;
+}
+
+/* ---------services section----------------*/
+
+.single-service {
+    border-top: 4px solid #E76F51;
+    transition: 0.3s;
+}
+
+.single-service:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px 8px rgba(0, 0, 0, 0.12);
+}
+
+.single-service:hover .service-icon {
+    background: #E76F51;
+}
+
+.single-service:hover .service-icon i {
+    color: white;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E76F51;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.service-icon i {
+    line-height: 50px;
+    transform: rotate(-45deg);
+    font-size: 20px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.single-service p {
+    font-size: 14px;
+    width: 85%;
+}
